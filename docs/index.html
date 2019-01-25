@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>看板娘插件文档</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
+  <meta name="description" content="Pio 看板娘插件文档">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 </head>
@@ -13,12 +13,23 @@
   <script>
     window.$docsify = {
       name: '看板娘插件',
-	  themeColor: '#673bb7',
-	  loadNavbar: true,
-	  coverpage: true,
-      repo: 'Dreamer-Paul/Pio'
+      themeColor: '#673bb7',
+      loadNavbar: true,
+      coverpage: true,
+      repo: 'Dreamer-Paul/Pio',
+      plugins: [
+        function (hook, vm) {
+          hook.ready(function() {
+            loadlive2d("paul", "https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.1/models/pio/model.json");
+          })
+        }
+      ]
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.1/static/l2d.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function (){
+
+  })</script>
 </body>
 </html>
