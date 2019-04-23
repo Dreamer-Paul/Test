@@ -2,6 +2,11 @@
 
 推荐使用 Typecho 的最新正式版本安装本插件，并采用 PHP 7x 作为开发环境。
 
+
+# 打赏
+
+[打赏](../donate.jpg)
+
 ## 全新安装
 
 从 [GitHub](https://github.com/Dreamer-Paul/Pio) 上获取本项目。
