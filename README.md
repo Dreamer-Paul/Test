@@ -76,4 +76,18 @@ data-163|网易云音乐的 ID 或歌名
 <sqplayer right data-title="Crimson & Clover" data-artist="Tommy James" data-cover="封面链接" data-link="歌曲链接"></sqplayer>
 ```
 
+
+
+
+## 使用方法
+1. Star 本项目
+2. 从这里 [下载](https://github.com/Dreamer-Paul/Pio/archive/master.zip) 本插件
+3. 将插件文件夹重命名为 `Pio`
+4. 上传本插件，并放置在 `usr/plugins/` 目录下
+5. 登录你的 Typecho 后台，找到 `Pio` 选择启用插件
+6. 你可以通过 [选择](https://docs.paul.ren/pio/#/?id=选择模型) 或 [外链](https://docs.paul.ren/pio/#/?id=外链引用模型) 的方式引用你获得的模型资源
+7. 奇趣保罗自己搭建的 [梦象资源站](https://mx-model.ga) 上提供了较多可用于本插件的模型资源，如果你也想在这里提交自己的原创作品，不妨现在就和我 [取得联系](https://paul.ren)吧！
+8. 想了解更多的玩法，欢迎阅读 [插件文档](https://docs.paul.ren/pio)。如果对本项目有任何的建议和想法，欢迎随时提出~
+
+
 Enjoy！
